@@ -1,0 +1,17 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #0f1a59;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+footer {
+  background: #0f1a59;
+}
