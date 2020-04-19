@@ -2,16 +2,75 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
-  background-color: #0f1a59;
-  color: #fff;
-  text-decoration: none;
+.footer {
+  text-align: center;
 }
 
 .logo {
   font-weight: bold;
 }
 
-footer {
-  background: #0f1a59;
+.btn {
+  background-color: #f27f68;
+  border-color: #f27f68;
+  border-radius: 50px;
+}
+
+.section-dark {
+  background-color: #00173d;
+}
+
+a {
+  color: #fff;
+}
+
+.masthead {
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  color: #4f5e78;
+}
+
+h2 {
+  font-weight: normal;
+  color: #4f5e78;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.copyright {
+  color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .toplogo {
+    text-align: left;
+  }
+
+  .footer {
+    text-align: left;
+  }
+
+  .nav-footer {
+    text-align: right;
+  }
+
 }
