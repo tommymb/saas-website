@@ -43,12 +43,21 @@ h2 {
   color: #4f5e78;
 }
 
+h3 {
+  font-weight: bold;
+  color: #4f5e78;
+}
+
 .nav a {
   text-decoration: none;
 }
 
 .copyright {
   color: #fff;
+}
+
+p {
+  color: #4f5e78;
 }
 
 @media only screen and (min-width: 25em) {
