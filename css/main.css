@@ -17,7 +17,7 @@ html {
 }
 
 .section-dark {
-  background-color: #00173d;
+  background-color: #122c45;
 }
 
 a {
@@ -49,6 +49,11 @@ h3 {
   color: #4f5e78;
 }
 
+h4 {
+  font-weight: 800;
+  color: #4f5e78;
+}
+
 .nav a {
   text-decoration: none;
 }
@@ -61,10 +66,22 @@ p {
   color: #4f5e78;
 }
 
+.reviewbody {
+  font-style: italic;
+}
+
+.reviews {
+  background-color: #d4e2fa;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav li {
     display: inline-block;
+  }
+
+  .firstbtn {
+    visibility: hidden;
   }
 
 }
@@ -81,6 +98,10 @@ p {
 
   .nav-footer {
     text-align: right;
+  }
+
+  .firstbtn {
+    visibility: visible;
   }
 
 }
