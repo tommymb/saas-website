@@ -7,43 +7,51 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,800,800i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Biryani:400,900|Raleway:300,400,400i,500,700,700i,800,800i&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
-  <header class="text-center section-dark masthead grid push-2">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to main navigation</a></li>
+    <li><a href="#footer">Jump to footer</a></li>
+    <li><a href="#section">Jump to the seperate section</a></li>
+  </ul>
+
+  <header role="banner" class="text-center section-dark masthead grid push-2">
     <div class="island-1-2 toplogo unit xs-1 s-1 m-1-3 l-1-4">
-      <h1 class="pad-t-1-2 peta"><a class="current homepage" href="index.html">Securiteam</a><h1>
+      <h1 class="logo push-0 pad-t-1-2 gutter exa"><a class="dec-rem current homepage" href="index.html">[SECURiTEAM]</a><h1>
     </div>
-    <nav class="pad-t unit xs-1 s-1 m-2-3 l-3-4">
+    <nav role="navigation" id="nav" tabindex="0" class="pad-t unit xs-1 s-1 m-2-3 l-3-4">
       <ul class="nav list-group list-group-inline">
-        <li class="btn-ghost"><a class="island-1-2" href="tour.html">[How it works]</a></li>
-        <li class="btn-ghost"><a class="island-1-2" href="#">[Pricing]</li>
-        <li class="btn-ghost"><a class="island-1-2" href="#">[Log in]</li>
-        <li class="firstbtn btn"><a class="signup" href="sign-up.html">Get Securiteam free</a></li>
+        <li class="btn-ghost island-1-2"><a href="tour.html">[How it works]</a></li>
+        <li class="btn-ghost island-1-2"><a href="#">[Pricing]</li>
+        <li class="btn-ghost island-1-2"><a href="#">[Log in]</li>
+        <li class="firstbtn island-1-2 btn"><a class="signup" href="sign-up.html">Get Securiteam free</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main role="main" id="main" tabindex="0">
     <div class="text-center push">
       <h1 class="nina push-0">ONLINE MADE EASY</h1>
       <h2 class="mega">[ Randomized passwords for all your online accounts ]</h2>
       <div class="push-2">
-        <p class="btn"><a href="sign-up.html">Get Securiteam Free</a></p>
+        <p class="btn"><a class="dec-rem" href="sign-up.html">Get Securiteam Free</a></p>
       </div>
     </div>
 
     <div class="grid pad-t">
-      <img class="mid-row img-flex unit xs-1 s-1 m-1-3 l-1-3" src="images/iphone-hand.jpg" alt="">
-      <img class="mid-row img-flex unit xs-1-2 s-1-2 m-1-3 l-1-3" src="images/mac-user.jpg" alt="">
-      <img class="mid-row img-flex unit xs-1-2 s-1-2 m-1-3 l-1-3" src="images/ipad-woman.jpg" alt="">
+      <img class="mid-row img-flex unit xs-1 s-1 m-1-3 l-1-3" src="images/iphone-hand.jpg" alt="" aria-details="devices">
+      <img class="mid-row img-flex unit xs-1-2 s-1-2 m-1-3 l-1-3" src="images/mac-user.jpg" alt="" aria-details="devices">
+      <img class="mid-row img-flex unit xs-1-2 s-1-2 m-1-3 l-1-3" src="images/ipad-woman.jpg" alt="" aria-details="devices">
     </div>
 
-    <div class="text-center island-1-2">
-      <h3 class="peta push">[ Any device, any time ]</h3>
-      <p class="micro">Available on the App Store and Google Play store, and with downloadable options for Apple and Windows computers, Securiteam can go anywhere you go and make sure all your devices are safe.</p>
+    <div id="devices" class="mid-para text-center island-1-2">
+      <h3 class="peta push-1-4">[ Any device, any time ]</h3>
+      <p class="micro push-0">Available on the App Store and Google Play store, and with downloadable options for Apple and Windows computers;</p>
+      <p class="micro">Securiteam can go anywhere you go and make sure all your devices are safe.</p>
     </div>
 
     <div class="text-center island-1-2 push grid">
@@ -66,7 +74,7 @@
     </div>
 
     <div class="text-center">
-      <h3 class="peta push">[ Trusted by Millions ]</h3>
+      <h3 class="peta push-1-4">[ Trusted by Millions ]</h3>
       <div class="grid">
         <div class="island unit xs-1 s-1 m-1-3 l-1-3 reviews">
           <h4 class="push-0 zetta">10 MILLION+</h4>
@@ -85,20 +93,52 @@
 
   </main>
 
-  <section>
-
+  <section role="section" id="section" tabindex="0" class="push-2 island-2">
+    <div class="text-center">
+      <p class="micro push-0 pad-t">Learn about our pricing options</p>
+      <div class="grid pricing">
+        <div class="island unit xs-1 s-1 m-1-3 l-1-3 pricing-option">
+          <h5 class="tera"><strong>FREE</strong> c$0</h3>
+          <ol class="push-0 list-group">
+            <li class="milli">Access on all devices</li>
+            <li class="milli">Password sharing</li>
+            <li class="milli">Save & fill passwords</li>
+            <li class="milli">Password generator</li>
+            <li class="milli">And more</li>
+          </ol>
+        </div>
+        <div class="island unit xs-1 s-1 m-1-3 l-1-3 pricing-option">
+          <h5 class="tera"><strong>PREMIUM</strong> c$4/M</h3>
+          <ol class="push-0 list-group">
+            <li class="milli">Everything in free</li>
+            <li class="milli">Emergency access</li>
+            <li class="milli">Priority tech support</li>
+            <li class="milli">And more</li>
+          </ol>
+        </div>
+        <div class="island unit xs-1 s-1 m-1-3 l-1-3 pricing-option">
+          <h5 class="tera"><strong>BUSINESS</strong> c$40/M</h3>
+          <ol class="push-0 list-group">
+            <li class="milli">Linked cloud sharing</li>
+            <li class="milli">Up to 15 premium licenses</li>
+            <li class="milli">Manager dashboard</li>
+            <li class="milli">And more</li>
+          </ol>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <footer class="footer section-dark micro island-1-2 grid">
+  <footer role="contentinfo" id="nav" tabindex="0" class="footer section-dark micro island-1-2 grid">
     <div class="unit xs-1 s-1 m-1-2 l-1-2">
       <p class="copyright push-0">©2020 Securiteam
     </div>
     <nav class="nav-footer unit xs-1 s-1 m-1-2 l-1-2">
       <ul class="nav list-group list-group-inline">
-        <li><a class="gutter-1-2" href="tour.html">[How it works]</a></li>
-        <li><a class="gutter-1-2" href="#">[Pricing]</li>
-        <li><a class="gutter-1-2" href="#">[Log in]</li>
-        <li><a class="gutter-1-2" href="sign-up.html">[Sign up]</a></li>
+        <li class="gutter-1-2"><a href="tour.html">[How it works]</a></li>
+        <li class="gutter-1-2"><a href="#">[Pricing]</li>
+        <li class="gutter-1-2"><a href="#">[Log in]</li>
+        <li class="gutter-1-2"><a href="sign-up.html">[Sign up]</a></li>
       </ul>
     </nav>
   </footer>

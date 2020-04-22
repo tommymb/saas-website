@@ -7,43 +7,61 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Biryani:400,900|Raleway:300,400,400i,500,700,700i,800,800i&display=swap" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
   <header class="section-dark masthead">
     <div>
-      <h1><a class="current homepage" href="index.html">Securiteam</a><h1>
+      <h1><a class="logo dec-rem current homepage" href="index.html">[SECURiTEAM]</a><h1>
     </div>
   </header>
-  </header>
+
   <main>
-    <div class="grid">
-      <img class="img-flex unit xs-0 s-0 m-1-2 l-1-2" src="images/sign-up.jpg" alt="">
+    <div class="sign-up-page grid island">
+      <div class="psr unit xs-0 s-0 m-1-2 l-1-2">
+        <img class="simage img-flex" src="images/sign-up.jpg" alt="">
+        <h1 class="white psa">ONLINE MADE EASY</h1>
+      </div>
       <div class="unit xs-1 s-1 m-1-2 l-1-2">
         <fieldset class="max-length">
-          <legend>Create an Account</legend>
+          <legend class="gutter">Create an Account</legend>
           <form class="push-0" method="POST" action="https://formspree.io/bren0241@algonquinlive.com">
-            <div>
+            <div class="gutter">
               <label for="email">e-mail</label>
               <input id="email" type="email" placeholder="exampleemail@email.mail" name="email" required>
             </div>
-            <div>
+            <div class="gutter">
               <label for="password">Master Password</label>
               <input id="password" type="password" required>
             </div>
-            <div>
+            <div class="gutter">
               <label for="password">Confirm Password</label>
               <input id="password" type="password" required>
             </div>
+            <div class="text-right island">
+            <button class="endbtn btn-light milli" type="submit">Sign up</button>
+          </div>
+          <input type="hidden" name="_subject" value="submit">
           </form>
         </fieldset>
       </div>
     </div>
   </main>
 
-  <footer>
+  <footer class="footer section-dark micro island-1-2 grid">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <p class="copyright push-0">©2020 Securiteam
+    </div>
+    <nav class="nav-footer unit xs-1 s-1 m-1-2 l-1-2">
+      <ul class="nav list-group list-group-inline">
+        <li class="gutter-1-2"><a href="tour.html">[How it works]</a></li>
+        <li class="gutter-1-2"><a href="#">[Pricing]</li>
+        <li class="gutter-1-2"><a href="#">[Log in]</li>
+        <li class="gutter-1-2"><a href="sign-up.html">[Sign up]</a></li>
+      </ul>
+    </nav>
   </footer>
 
 </body>
